@@ -67,3 +67,5 @@ backend/data/*.pkl
 backend/data/*.db
 *.sqlite
 *.sqlite3
+*.zip
+upload_to_zenodo.py
