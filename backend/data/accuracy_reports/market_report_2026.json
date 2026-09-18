@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-09-17T19:04:57.624802",
+  "csv_file": "data/MarketplaceResearchAll82JobTitlePlusSkills.csv",
+  "summary": {
+    "status": "✅ Data quality is excellent",
+    "overall_score": 98.52,
+    "quality_level": "HIGH",
+    "recommended_action": "Ready for production use",
+    "issues_count": 2,
+    "top_issue": "Freelancing_Opportunities: 2 values out of range"
+  },
+  "reliability": {
+    "score": 98.52,
+    "level": "HIGH",
+    "recommendation": "Data is reliable for production use."
+  },
+  "metrics_breakdown": {
+    "completeness": {
+      "score": 100.0,
+      "description": "Measures presence of required data",
+      "details": {
+        "missing_columns": [],
+        "columns_with_nulls": 0
+      },
+      "status": "PASS"
+    },
+    "value_validity": {
+      "score": 100.0,
+      "description": "Checks if values are valid types",
+      "details": {
+        "columns_with_invalid": 0
+      },
+      "status": "PASS"
+    },
+    "range_validity": {
+      "score": 99.6,
+      "description": "Checks if values are within expected ranges",
+      "details": {
+        "columns_out_of_range": 1
+      },
+      "status": "PASS"
+    },
+    "consistency": {
+      "score": 100.0,
+      "description": "Checks logical relationships between fields",
+      "details": {
+        "inconsistencies_found": 0
+      },
+      "status": "PASS"
+    },
+    "anomalies": {
+      "score": 93.0,
+      "description": "Detects statistical outliers",
+      "details": {
+        "anomaly_percentage": 7.0,
+        "columns_with_anomalies": 3
+      },
+      "status": "NEEDS_ATTENTION"
+    }
+  },
+  "score_details": {
+    "completeness": 100.0,
+    "value_validity": 100.0,
+    "range_validity": 99.6,
+    "consistency": 100.0,
+    "anomaly_score": 93.0
+  },
+  "issues_found": [
+    "Freelancing_Opportunities: 2 values out of range",
+    "High anomaly rate: 7.0%"
+  ],
+  "data_profile": {
+    "total_rows": 100,
+    "columns_checked": 0
+  }
+}

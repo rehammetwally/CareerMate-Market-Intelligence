@@ -1,0 +1,55 @@
+# =============================================================================
+# CareerMate Market Intelligence — Full Stack Orchestration
+# Reproducibility Artifact for Master's Thesis (2026)
+#
+# Services:
+#   - backend:  FastAPI Neuro-Symbolic Agentic Engine (port 8001)
+#   - frontend: React Market Intelligence Dashboard (port 3000)
+#
+# Usage:
+#   Start full stack:   docker compose up --build -d
+#   Stop stack:         docker compose down
+#   Run benchmarks:     docker compose run --rm backend --benchmark full
+#   Run pytest suite:   docker compose run --rm backend --test
+# =============================================================================
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.edge
+    image: careermate/edge-eval:2026
+    container_name: careermate-backend
+    ports:
+      - "8001:8001"
+    environment:
+      - CAREERMATE_ENV=production
+      - CAREERMATE_PORT=8001
+      - CAREERMATE_KG_PATH=/app/data
+      - PYTHONPATH=/app/backend
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8001/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_URL=http://localhost:8001
+    image: careermate/frontend:2026
+    container_name: careermate-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+networks:
+  default:
+    name: careermate-network

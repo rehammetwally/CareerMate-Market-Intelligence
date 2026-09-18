@@ -1,0 +1,2 @@
+Title,Track,Global_Job_Demand,Egypt_Job_Demand,Freelancing_Opportunities,Salary_Min_USD,Salary_Max_USD,Reliability_Score,AI_Extracted_Skills,AI_Skills_Count,Missing_Skills
+Cloud Architect,Infrastructure,12000,800,1500,90000,150000,0.88,"AWS, Docker",2,Kubernetes

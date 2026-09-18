@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Future of Jobs Report 2025 (full PDF): https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+    "url": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+    "domain": "reports.weforum.org",
+    "reliability": "high",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:44.521700+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "Future of Jobs Report 2023: https://www.weforum.org/publications/series/future-of-jobs/ (overview of all editions)",
+    "url": "https://www.weforum.org/publications/series/future-of-jobs/",
+    "domain": "weforum.org",
+    "reliability": "high",
+    "alive": false,
+    "http_status": 403,
+    "last_checked": "2026-04-03T20:23:44.711958+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "Generative AI and the Future of Work in America (2025 update): Discusses automation impacts on 57% of work hours and occupational shifts. https://www.mckinsey.com/featured-insights",
+    "url": "https://www.mckinsey.com/featured-insights/future-of-work",
+    "domain": "mckinsey.com",
+    "reliability": "high",
+    "alive": false,
+    "http_status": null,
+    "last_checked": "2026-04-03T20:23:44.843760+00:00",
+    "check_error": "",
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "McKinsey November 2025 Automation Analysis: Covers routine work displacement and evolution. https://theopenrecord.org/2025/11/27/mckinseys-november-2025-bombshell-57-of-work-hours-",
+    "url": "https://theopenrecord.org/2025/11/27/mckinseys-november-2025-bombshell-57-of-work-hours-already-automatable/",
+    "domain": "theopenrecord.org",
+    "reliability": "review",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:44.974580+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "Job Trends 2026: 25 Fastest-Growing US Jobs: Ranks roles like AI specialists and founders. https://www.linkedin.com/pulse/linkedin-jobs-rise-2026-25-fastest-growing-roles-us-linked",
+    "url": "https://www.linkedin.com/pulse/linkedin-jobs-rise-2026-25-fastest-growing-roles-us-linkedin-news-dlb1c",
+    "domain": "linkedin.com",
+    "reliability": "high",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:45.106301+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "Global Labor Market 2026 (Davos): Notes 1.3M AI-enabled jobs and seeker/opening ratios. https://news.linkedin.com/2026/2026-Davos-Press-Release",
+    "url": "https://news.linkedin.com/2026/2026-Davos-Press-Release",
+    "domain": "news.linkedin.com",
+    "reliability": "high",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:46.230758+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "OECD Employment Outlook (recent series): Analyzes automation risks (14% jobs at high risk) and transitions. https://tuac.org/wp-content/uploads/2019/04/7_1904t_EO2019.pdf",
+    "url": "https://tuac.org/wp-content/uploads/2019/04/7_1904t_EO2019.pdf",
+    "domain": "tuac.org",
+    "reliability": "high",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:46.388759+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/",
+    "url": "https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/",
+    "domain": "weforum.org",
+    "reliability": "high",
+    "alive": false,
+    "http_status": 403,
+    "last_checked": "2026-04-03T20:23:46.778429+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "https://www.linkedin.com/pulse/future-work-age-generative-ai-mckinsey-2025-report-janel-p--lqnse",
+    "url": "https://www.linkedin.com/pulse/future-work-age-generative-ai-mckinsey-2025-report-janel-p--lqnse",
+    "domain": "linkedin.com",
+    "reliability": "high",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:47.596367+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  },
+  {
+    "title": "https://basicincome.org/news/2019/07/the-future-of-work-as-seen-by-the-oecd/",
+    "url": "https://basicincome.org/news/2019/07/the-future-of-work-as-seen-by-the-oecd/",
+    "domain": "basicincome.org",
+    "reliability": "review",
+    "alive": true,
+    "http_status": 200,
+    "last_checked": "2026-04-03T20:23:47.996106+00:00",
+    "check_error": null,
+    "note": "Imported from user-provided reliable sources doc"
+  }
+]
